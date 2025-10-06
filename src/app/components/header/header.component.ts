@@ -1,5 +1,6 @@
 import { Component, HostListener, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-header',
@@ -9,6 +10,7 @@ import { isPlatformBrowser } from '@angular/common';
 export class HeaderComponent implements OnInit {
   isMenuOpen: boolean = false;
   isScrolled: boolean = false;
+  companyName: string = environment.companyName;
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) { }
 

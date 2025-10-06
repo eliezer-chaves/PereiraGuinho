@@ -1,9 +1,10 @@
 import { Routes } from '@angular/router';
 import { PageHomeComponent } from './pages/page-home/page-home.component';
 import { PageObrigadoComponent } from './pages/page-obrigado/page-obrigado.component';
+import { environment } from '../environments/environment';
 
 export const routes: Routes = [
-  { path: '', component: PageHomeComponent, title: 'Auto Socorro Pereira' },
-  { path: 'obrigado', component: PageObrigadoComponent, title: 'Obrigado - Auto Socorro Pereira' },
+  { path: '', component: PageHomeComponent, title: 'Pereira Guincho: Guincho em Taubaté 24 horas' },
+  { path: 'obrigado', component: PageObrigadoComponent, title: environment.companyName },
   
 ];

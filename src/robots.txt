@@ -1,27 +1,15 @@
 User-agent: *
+# Permite o acesso de todos os rastreadores a todo o site, 
+# exceto o que está explicitamente bloqueado abaixo.
 Allow: /
 
-# Sitemap
-Sitemap: https://autosocorroperreira.com.br/sitemap.xml
+# Link para o sitemap
+Sitemap: https://pereiraguinchotaubate.com.br/sitemap.xml
 
-# Permitir acesso a assets
-Allow: /assets/
-
-# Permitir acesso a páginas
-Allow: /pages/
-
-# Bloquear arquivos temporários e de sistema
+# Bloquear arquivos temporários, de sistema e diretórios privados
 Disallow: /*.tmp$
 Disallow: /*.log$
 Disallow: /temp/
 Disallow: /private/
-
-# Permitir bots de busca principais
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-# Crawl delay para evitar sobrecarga
-Crawl-delay: 1
+# Se você tiver uma pasta de administração que não deve ser indexada:
+# Disallow: /admin/

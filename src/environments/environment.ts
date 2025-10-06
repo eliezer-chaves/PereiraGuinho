@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  companyName: 'Auto Socorro Pereira',
+  companyName: 'Pereira Guincho',
   cnpj: '09.147.977/0001-00',
   phoneNumber: '(12) 97402-0170',
   email: 'jdpereiraguincho@gmail.com',

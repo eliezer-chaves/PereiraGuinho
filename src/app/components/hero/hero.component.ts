@@ -13,6 +13,8 @@ import { ClickCtaService } from '../../helpers/tracker.service';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeroComponent {
+  companyName: string = environment.companyName;
+  
   constructor(private router: Router, private obrigadoService: ObrigadoService, private clickCTA: ClickCtaService) { }
 
   onWhatsappClick() {
