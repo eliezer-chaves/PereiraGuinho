@@ -1,15 +1,35 @@
 User-agent: *
-# Permite o acesso de todos os rastreadores a todo o site, 
-# exceto o que está explicitamente bloqueado abaixo.
 Allow: /
 
-# Link para o sitemap
-Sitemap: https://pereiraguinchotaubate.com.br/sitemap.xml
+# BLOQUEAR PARÂMETROS DE TRACKING - EVITA CONTEÚDO DUPLICADO
+Disallow: /*?gclid=
+Disallow: /*?gad_source=
+Disallow: /*?gad_campaignid=
+Disallow: /*?utm_
+Disallow: /*?gbraid=
+Disallow: /*?wbraid=
+Disallow: /*?fbclid=
 
-# Bloquear arquivos temporários, de sistema e diretórios privados
+# BLOQUEAR ÁREAS ADMINISTRATIVAS
+Disallow: /wp-admin/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /wp-content/plugins/
+Disallow: /wp-includes/
+
+# BLOQUEAR PÁGINAS DINÂMICAS SEM VALOR SEO
+Disallow: /search/
+Disallow: /*?s=
+Disallow: /carrinho/
+Disallow: /checkout/
+Disallow: /minha-conta/
+
+# BLOQUEAR ARQUIVOS TEMPORÁRIOS
 Disallow: /*.tmp$
 Disallow: /*.log$
-Disallow: /temp/
-Disallow: /private/
-# Se você tiver uma pasta de administração que não deve ser indexada:
-# Disallow: /admin/
+Disallow: /*.sql$
+Disallow: /*.bak$
+
+# SITEMAP
+Sitemap: https://pereiraguinchotaubate.com.br/sitemap.xml
