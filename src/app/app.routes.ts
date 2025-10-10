@@ -4,7 +4,7 @@ import { PageObrigadoComponent } from './pages/page-obrigado/page-obrigado.compo
 import { environment } from '../environments/environment';
 
 export const routes: Routes = [
-  { path: '', component: PageHomeComponent, title: 'Pereira Guincho: Guincho em Taubaté 24 horas' },
+  { path: '', component: PageHomeComponent, title: 'Pereira Guincho Taubaté: Guincho em Taubaté 24 horas' },
   { path: 'obrigado', component: PageObrigadoComponent, title: environment.companyName },
   
 ];
