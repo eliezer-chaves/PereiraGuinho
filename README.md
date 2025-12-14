@@ -1,70 +1,70 @@
-# Pereira Guincho Taubaté
+# ⚙️ Pereira Guincho Taubaté
 
-Este repositório contém a página de destino (landing page) do Auto Socorro Pereira, um serviço de guincho 24 horas em Taubaté e região. O projeto foi desenvolvido com **Angular**, utilizando ferramentas modernas para uma experiência rápida e fluida.
+This repository contains the **landing page** for Auto Socorro Pereira, a 24-hour towing and roadside assistance service operating in Taubaté and the surrounding region. The project was developed using **Angular**, leveraging modern tools for a fast and fluid user experience.
 
------
+---
 
-### 💻 Tecnologias Utilizadas
+### 💻 Technologies Used
 
-  * **Angular CLI**: v19.2.15
-  * **HTML5, CSS3, TypeScript**: As linguagens base do projeto.
-  * **Angular Material Icons**: Para ícones de alta qualidade.
-  * **Font Awesome**: Para ícones adicionais, como o ícone do WhatsApp.
+* **Angular CLI**: v19.2.15
+* **HTML5, CSS3, TypeScript**: The core languages for the project structure and logic.
+* **Angular Material Icons**: Used for high-quality, scalable icons.
+* **Font Awesome**: Utilized for additional iconic elements, such as the WhatsApp icon.
 
------
+---
 
-### 📦 Instalação e Configuração
+### 📦 Installation and Configuration
 
-Para rodar este projeto localmente, siga os passos abaixo:
+To run this project locally, follow the steps below:
 
-1.  **Clone o repositório:**
+1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/seu-usuario/pereira-guincho-angular.git
+    git clone [https://github.com/seu-usuario/pereira-guincho-angular.git](https://github.com/seu-usuario/pereira-guincho-angular.git)
     cd pereira-guincho-angular
     ```
 
-2.  **Instale as dependências:**
-    Certifique-se de que você tem o Node.js e o npm instalados. Em seguida, execute o comando para instalar todas as dependências do projeto.
+2.  **Install Dependencies:**
+    Ensure you have Node.js and npm installed. Then, execute the command to install all project dependencies.
 
     ```bash
     npm install
     ```
 
-3.  **Inicie o servidor de desenvolvimento:**
+3.  **Start the Development Server:**
 
     ```bash
     ng serve
     ```
 
-    O servidor será iniciado em `http://localhost:4200/`. A aplicação recarregará automaticamente quando você fizer alterações nos arquivos.
+    The server will start at `http://localhost:4200/`. The application will automatically reload when you make changes to the source files.
 
------
+---
 
-### 🛠️ Comandos Úteis
+### 🛠️ Useful Commands
 
-  * **Gerar um novo componente:**
+* **Generate a new component:**
 
     ```bash
-    ng generate component nome-do-componente
+    ng generate component component-name
     ```
 
-  * **Compilar para produção:**
+* **Build for Production:**
 
     ```bash
     ng build
     ```
 
-    O build otimizado para produção será gerado na pasta `dist/`.
+    The optimized production build will be generated in the `dist/` folder.
 
-  * **Rodar testes:**
+* **Run Tests:**
 
     ```bash
     ng test
     ```
 
------
+---
 
-### 🔗 Site Oficial
+### 🔗 Official Website
 
-Você pode visitar a versão online da landing page em: **[https://www.pereiraguinchotaubate.com.br/](https://www.pereiraguinchotaubate.com.br/)**
+You can visit the live version of the landing page at: **[https://www.pereiraguinchotaubate.com.br/](https://www.pereiraguinchataubate.com.br/)**
